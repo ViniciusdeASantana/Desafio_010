@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@import url(fonts.css);
+@import url(variable.css);
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-base);
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.column-one {
+    background: var(--cor06);
+    width: 50%;
+    display: none;
+
+    @media(min-width: 1024px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.column-one__img {
+    width: 0 auto;
+}
+
+.wrapper {
+    width: 100%;
+    padding: 123px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media(min-width: 1024px) {
+        width: 50%;
+    }
+}
+
+.column-two {
+    gap: 56px;
+}

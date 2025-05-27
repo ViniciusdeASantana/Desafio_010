@@ -1,0 +1,13 @@
+:root {
+    /* color */
+    --cor01: #1E9E6A;
+    --cor02: #1A202C;
+    --cor03: #656769;
+    --cor04: #E8E8E8;
+    --cor05: #F7FAFC;
+    --cor06: #F3FFF2;
+
+    /* type */
+    --font-base: 'archivo';
+}
+
